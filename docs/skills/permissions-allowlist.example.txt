@@ -1,0 +1,5 @@
+# Example only; not an authoritative permission catalogue.
+workspace.read
+workspace.write
+terminal.execute
+external.publish

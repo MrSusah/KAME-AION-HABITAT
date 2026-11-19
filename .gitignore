@@ -1,0 +1,54 @@
+﻿# Secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+secrets/
+credentials/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+.next/
+.turbo/
+target/
+coverage/
+
+# Local databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+storage/*
+!storage/.gitkeep
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python generated artifacts
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Local backup and temporary revision files
+*.backup*
+*.tmp*
+*.temp*
+*.bak
